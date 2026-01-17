@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Electrical Engienering Student at Georgia Institute of Technology
 
 profile:
   align: right
@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey y'all! My name's Abe. I'm a an electrical engineering student at Georgia Tech, with concentrations in Circuit Technology and Robtics. I'm interested in analog deisng, chip design, and hardware deisgn. Outside of school I love to read, travel, cook (burn food), and play videogames. My favorite books are Dune, Mistborn, and Fall of Giants. My favorite video games are Minecraft, Terarria, Risk of Rain, and Portal. 
+Hey! My name's Abe. I'm a an electrical engineering student at Georgia Tech, with concentrations in Circuit Technology and Robtics. I'm interested in analog deisng, chip design, and hardware deisgn. Outside of school and work I love to read, travel, cook (burn food), and play videogames. My favorite books are Dune, Mistborn, and Fall of Giants. My favorite video games are Minecraft, Terarria, Risk of Rain, and Portal. 
