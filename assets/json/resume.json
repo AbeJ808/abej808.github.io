@@ -183,7 +183,7 @@
   "volunteer": [
     {
       "organization": "Hive Makerspace",
-      "location": "Georgia Institute of Technology",
+      "location": "Georgia Institute \nof Technology",
       "position": "Peer Instructor, Machine Shop Specialist",
       "startDate": "2023-01-01",
       "endDate": "2025-08-01",
