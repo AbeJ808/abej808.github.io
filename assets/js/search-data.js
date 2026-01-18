@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-binary-clock",
           title: 'Binary Clock',
-          description: "A beautifully inconvinent way of keeping time.",
+          description: "A beautifully inconvinent way of keeping time",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
