@@ -101,7 +101,7 @@
         "Programmed a custom linked-list hash table to store approximately 3500 map items.",
         "Implemented save and load functionality using an SD card for power-off persistent game state."
       ],
-      "startDate": "2024-12-01",
+      "startDate": "2024-11-01",
       "endDate": "2024-12-01"
     },
     {
@@ -112,7 +112,7 @@
         "Implemented fail2ban, non-default SSH ports, and SSH key-based authentication to secure the server and home network.",
         "Configured port forwarding through two routers to enable worldwide SSH access."
       ],
-      "startDate": "2024-01-01",
+      "startDate": "2023-12-15",
       "endDate": "2024-01-01"
     },
     {
@@ -124,7 +124,7 @@
         "Added servo linking capability via a fifth register to allow grouped motor control.",
         "Used SignalTap logic analyzer to debug and validate FPGA implementation."
       ],
-      "startDate": "2024-04-01",
+      "startDate": "2024-03-01",
       "endDate": "2024-04-01"
     }
   ],
@@ -164,14 +164,14 @@
     {
       "name": "Extending and Validating High Level Synthesis Tools for Analog Computing on Field Programmable Analog Arrays",
       "publisher": "IEEE Opportunity Research Scholars Symposium (ORSS)",
-      "releaseDate": "2025-01-01",
+      "releaseDate": "2025",
       "url": "https://doi.org/10.1109/ORSS66051.2025.11121627",
       "summary": "A. Marsh et al., presented research extending and validating analog computing synthesis tools for FPAA platforms."
     },
     {
       "name": "Performance of large-format deformable mirrors constructed with hybrid variable reluctance actuators III: laboratory measurements of dynamic behavior",
       "publisher": "Adaptive Optics for Extremely Large Telescopes",
-      "releaseDate": "2023-06-01",
+      "releaseDate": "2023",
       "url": "https://hal.science/hal-04402884v1",
       "summary": "Laboratory characterization of dynamic behavior of large-format deformable mirrors using hybrid variable reluctance actuators."
     }
