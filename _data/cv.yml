@@ -1,125 +1,125 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Abraham J. Marsh
-    - name: Location
-      value: Honolulu, Hawaii
-    - name: Email
-      value: amarsh41@gatech.edu
-    - name: Citizenship
-      value: US Citizen, Australian Citizen
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Abraham J. Marsh
+#     - name: Location
+#       value: Honolulu, Hawaii
+#     - name: Email
+#       value: amarsh41@gatech.edu
+#     - name: Citizenship
+#       value: US Citizen, Australian Citizen
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Science in Electrical Engineering
-      institution: Georgia Institute of Technology, Atlanta, GA
-      year: July 2022 – Present
-      description:
-        - GPA: 3.88
-        - Expected Graduation: December 2026
-        - Concentrations in circuit technology, digital systems, and embedded hardware
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Bachelor of Science in Electrical Engineering
+#       institution: Georgia Institute of Technology, Atlanta, GA
+#       year: July 2022 – Present
+#       description:
+#         - GPA: 3.88
+#         - Expected Graduation: December 2026
+#         - Concentrations in circuit technology, digital systems, and embedded hardware
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Systems Engineering Intern
-      institution: L3Harris Technologies, Alpharetta, Georgia
-      year: May – August 2025
-      description:
-        - Engineered a Python-based touchscreen GUI on Raspberry Pi to automate control of 18 industrial PCB reflow ovens.
-        - Integrated GUI with factory SQL database to log configuration and bake data for full product traceability.
-        - Established and maintained a local Git repository for version control on the factory network.
-        - Automated deployment of GUI updates across all ovens to eliminate manual intervention.
-        - Developed DXL scripts in IBM DOORS to generate requirements traceability matrices and identify missing links across 200+ requirements.
-        - Built a multithreaded Python parser to process over 10 million test data points and integrated results into Power BI.
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Systems Engineering Intern
+#       institution: L3Harris Technologies, Alpharetta, Georgia
+#       year: May – August 2025
+#       description:
+#         - Engineered a Python-based touchscreen GUI on Raspberry Pi to automate control of 18 industrial PCB reflow ovens.
+#         - Integrated GUI with factory SQL database to log configuration and bake data for full product traceability.
+#         - Established and maintained a local Git repository for version control on the factory network.
+#         - Automated deployment of GUI updates across all ovens to eliminate manual intervention.
+#         - Developed DXL scripts in IBM DOORS to generate requirements traceability matrices and identify missing links across 200+ requirements.
+#         - Built a multithreaded Python parser to process over 10 million test data points and integrated results into Power BI.
 
-    - title: Undergraduate Researcher
-      institution: Georgia Tech Integrated Computational Electronics Lab, Atlanta, Georgia
-      year: August 2024 – May 2025
-      description:
-        - Integrated analog circuits into a Field Programmable Analog Array (FPAA) audio feature extraction chain.
-        - Developed fixed-location placement features in the Python toolchain to reduce parasitic capacitance.
-        - Optimized FPAA delay circuits to achieve 15 microsecond delays.
-        - Characterized delay and attenuation behavior across frequency and biasing modes.
+#     - title: Undergraduate Researcher
+#       institution: Georgia Tech Integrated Computational Electronics Lab, Atlanta, Georgia
+#       year: August 2024 – May 2025
+#       description:
+#         - Integrated analog circuits into a Field Programmable Analog Array (FPAA) audio feature extraction chain.
+#         - Developed fixed-location placement features in the Python toolchain to reduce parasitic capacitance.
+#         - Optimized FPAA delay circuits to achieve 15 microsecond delays.
+#         - Characterized delay and attenuation behavior across frequency and biasing modes.
 
-    - title: Electrical Test Engineer Intern
-      institution: Fluke Corporation, Everett, Washington
-      year: May – August 2024
-      description:
-        - Troubleshot and maintained automated test stations across 27 high-volume product lines.
-        - Designed an Automated Optical Inspection system using LabVIEW, TestStand, and NI Vision Assistant.
-        - Integrated AOI station with factory database to auto-generate failure reports.
-        - Delivered system replication plan including cost, setup, and maintenance.
-        - Led root cause investigation of 4 percent clamp meter failure and implemented supplier-side corrective action.
-        - Presented yield and quality KPIs during daily cross-functional factory meetings.
+#     - title: Electrical Test Engineer Intern
+#       institution: Fluke Corporation, Everett, Washington
+#       year: May – August 2024
+#       description:
+#         - Troubleshot and maintained automated test stations across 27 high-volume product lines.
+#         - Designed an Automated Optical Inspection system using LabVIEW, TestStand, and NI Vision Assistant.
+#         - Integrated AOI station with factory database to auto-generate failure reports.
+#         - Delivered system replication plan including cost, setup, and maintenance.
+#         - Led root cause investigation of 4 percent clamp meter failure and implemented supplier-side corrective action.
+#         - Presented yield and quality KPIs during daily cross-functional factory meetings.
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: ARM Processor Based RPG Game
-      year: December 2024
-      description:
-        - Developed a top-down 2D RPG in C++ on an ARM-based MBED platform.
-        - Implemented two maps, quests, enemies, powerups, scoreboard, and final boss.
-        - Designed a custom linked-list hash table to store over 3500 map objects.
-        - Implemented SD-card-based save and load functionality for persistent gameplay.
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: ARM Processor Based RPG Game
+#       year: December 2024
+#       description:
+#         - Developed a top-down 2D RPG in C++ on an ARM-based MBED platform.
+#         - Implemented two maps, quests, enemies, powerups, scoreboard, and final boss.
+#         - Designed a custom linked-list hash table to store over 3500 map objects.
+#         - Implemented SD-card-based save and load functionality for persistent gameplay.
 
-    - title: Home SSH Server
-      year: January 2024
-      description:
-        - Converted an old laptop into a Linux SSH server for remote access and hosting.
-        - Implemented fail2ban, SSH key authentication, and non-default port configuration.
-        - Configured port forwarding across two routers for global access.
+#     - title: Home SSH Server
+#       year: January 2024
+#       description:
+#         - Converted an old laptop into a Linux SSH server for remote access and hosting.
+#         - Implemented fail2ban, SSH key authentication, and non-default port configuration.
+#         - Configured port forwarding across two routers for global access.
 
-    - title: Servo Motor Driver on FPGA
-      year: April 2024
-      description:
-        - Led hardware development for FPGA-based servo motor driver.
-        - Designed VHDL controller to operate four servos with 180-degree resolution.
-        - Implemented PWM generation with input clamping for hardware protection.
-        - Debugged and validated system using SignalTap logic analyzer.
+#     - title: Servo Motor Driver on FPGA
+#       year: April 2024
+#       description:
+#         - Led hardware development for FPGA-based servo motor driver.
+#         - Designed VHDL controller to operate four servos with 180-degree resolution.
+#         - Implemented PWM generation with input clamping for hardware protection.
+#         - Debugged and validated system using SignalTap logic analyzer.
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - Python, C, C++, Java, MATLAB, C#, SQL, Assembly, VHDL, DXL
-    - title: Software Tools
-      items:
-        - LabVIEW, TestStand, Git, GitHub, JIRA, Confluence, Power BI
-    - title: Hardware and Embedded
-      items:
-        - FPGA, ARM processors, RTOS, Arduino, Raspberry Pi, Linux, SSH
-    - title: Fabrication
-      items:
-        - 3D Printing, Laser Cutting, Soldering
-    - title: Engineering Practices
-      items:
-        - Failure Analysis, Root Cause Analysis, Process Optimization, Requirements Management
+# - title: Skills
+#   type: nested_list
+#   contents:
+#     - title: Programming
+#       items:
+#         - Python, C, C++, Java, MATLAB, C#, SQL, Assembly, VHDL, DXL
+#     - title: Software Tools
+#       items:
+#         - LabVIEW, TestStand, Git, GitHub, JIRA, Confluence, Power BI
+#     - title: Hardware and Embedded
+#       items:
+#         - FPGA, ARM processors, RTOS, Arduino, Raspberry Pi, Linux, SSH
+#     - title: Fabrication
+#       items:
+#         - 3D Printing, Laser Cutting, Soldering
+#     - title: Engineering Practices
+#       items:
+#         - Failure Analysis, Root Cause Analysis, Process Optimization, Requirements Management
 
-- title: Publications
-  type: list
-  contents:
-    - A. Marsh et al., "Extending and Validating High Level Synthesis Tools for Analog Computing on Field Programmable Analog Arrays," IEEE ORSS 2025.
-    - Performance of Large-Format Deformable Mirrors Constructed with Hybrid Variable Reluctance Actuators III, AO for ELTs, 2023.
+# - title: Publications
+#   type: list
+#   contents:
+#     - A. Marsh et al., "Extending and Validating High Level Synthesis Tools for Analog Computing on Field Programmable Analog Arrays," IEEE ORSS 2025.
+#     - Performance of Large-Format Deformable Mirrors Constructed with Hybrid Variable Reluctance Actuators III, AO for ELTs, 2023.
 
-- title: Extracurricular
-  type: time_table
-  contents:
-    - title: Peer Instructor, Machine Shop Specialist
-      institution: Hive Makerspace, Georgia Tech
-      year: January 2023 – August 2025
-      description:
-        - Assisted students with laser cutters, 3D printers, and machine shop tools.
-        - Consulted on academic and personal engineering projects.
+# - title: Extracurricular
+#   type: time_table
+#   contents:
+#     - title: Peer Instructor, Machine Shop Specialist
+#       institution: Hive Makerspace, Georgia Tech
+#       year: January 2023 – August 2025
+#       description:
+#         - Assisted students with laser cutters, 3D printers, and machine shop tools.
+#         - Consulted on academic and personal engineering projects.
 
-    - title: IB Physics Tutor
-      institution: Kaiser High School
-      year: January 2023 – Present
-      description:
-        - Tutored 3 to 6 IB Physics students weekly.
-        - Achieved an average test score improvement of 37 percent.
-        - Prepared individualized weekly lesson plans.
+#     - title: IB Physics Tutor
+#       institution: Kaiser High School
+#       year: January 2023 – Present
+#       description:
+#         - Tutored 3 to 6 IB Physics students weekly.
+#         - Achieved an average test score improvement of 37 percent.
+#         - Prepared individualized weekly lesson plans.
