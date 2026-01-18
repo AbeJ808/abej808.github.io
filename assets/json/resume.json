@@ -26,7 +26,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2022-07-01",
       "endDate": "2026-12-01",
-      "gpa": "3.88/4.0",
+      "score": "3.88/4.0",
       "courses": [
         "Advanced Programming Techniques",
         "Embedded Systems",
