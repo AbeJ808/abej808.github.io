@@ -28,14 +28,15 @@
       "endDate": "2026-12-01",
       "score": "3.88/4.0",
       "courses": [
-        "Advanced Programming Techniques",
-        "Embedded Systems",
-        "Digital Design Lab",
-        "Microelectronics",
-        "Circuit Analysis",
-        "Signals and Systems",
-        "Electromagnetics",
-        "Analog Electronics"
+        "GPA: 3.88/4.0",
+        "Relevant coursework: Advanced Programming Techniques,
+        Embedded Systems,
+        Digital Design Lab,
+        Microelectronics,
+        Circuit Analysis,
+        Signals and Systems,
+        Electromagnetics,
+        Analog Electronics"
       ]
     }
   ],
