@@ -26,4 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! My name's Abe. I'm a an electrical engineering student at Georgia Tech, with concentrations in Circuit Technology and Robtics. I'm interested in analog deisng, chip design, and hardware deisgn. Outside of school and work I love to read, travel, cook (burn food), and play videogames. My favorite books are Dune, Mistborn, and Fall of Giants. My favorite video games are Minecraft, Terarria, Risk of Rain, and Portal. 
+Hey! My name’s Abe. I’m a fourth-year electrical engineering student at Georgia Tech with concentrations in circuit technology and robotics. I’m especially interested in analog and integrated circuit design. 
+
+I enjoy learning new tools and approaching problems holistically. At Fluke, I designed an automated optical inspection test station for one of the company’s highest-volume products, combining hardware, software, and data analysis to build a reliable system used on the factory floor. I’ve also worked with analog circuits in research at Georgia Tech, integrating and characterizing designs on Field Programmable Analog Arrays.
+
+Outside of school and work, I like to read, travel, cook (occasionally burn food), and play video games. Some of my favorite books are Dune, Mistborn, and Fall of Giants, and my all-time favorite games are Minecraft, Terraria, Risk of Rain, and Portal.
