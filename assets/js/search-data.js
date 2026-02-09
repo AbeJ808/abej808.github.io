@@ -414,9 +414,9 @@ ninja.data = [{
           description: "A beautifully inconvinent way of keeping time",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-retro-game-device",
+          title: 'Retro Game Device',
+          description: "Arm processor based RPG game written in C",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
