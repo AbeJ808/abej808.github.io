@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Retro Game Device 
+description: Arm processor based RPG game written in C
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: academic projects
 giscus_comments: true
 ---
 
