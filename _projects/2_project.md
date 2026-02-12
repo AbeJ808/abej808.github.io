@@ -2,80 +2,108 @@
 layout: page
 title: Retro Game Device 
 description: Arm processor based RPG game written in C
-img: assets/img/3.jpg
+img: assets/img/2035Game.jpg
 importance: 2
 category: academic projects
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project was the culminating final assignment for ECE 2035, where I designed and implemented a fully functional top-down roguelike RPG on an ARM-based MBED microcontroller. The game was written entirely in C and consists of over 3,700 lines of code.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The system integrates an LCD display, hardware switches, and an SD card reader to create a standalone embedded gaming platform. All logic, rendering, and data structures were implemented manually with a focus on low-level memory management and efficient system design.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+# Project Demo
+
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/watch?v=-ByK3FcCoNQ"
+    title="Demo Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+# Hardware Platform
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The game runs on an ARM MBED processor and interfaces with:
 
-{% raw %}
+- LCD display for real-time rendering
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Physical switches for player input
 
-{% endraw %}
+- SD card reader for persistent storage
+
+- On-board memory for dynamic game state management
+
+# Game Features
+
+- Two unique playable maps
+
+- Collectible items
+
+- Two enemy types with distinct behaviors and drop maps
+
+- Final boss encounter
+
+- Scoreboard system
+
+- Persistent save/load functionality
+
+The codebase was modularized into rendering, entity management, game logic, and storage subsystems to maintain clarity and scalability.
+
+# Custom Data Structures & Memory Management
+
+A primary challenge was efficiently managing large game-world data within limited embedded memory.
+
+To support over 3,500 map items, I implemented:
+
+- A custom hash table using linked-list chaining
+
+- Custom hash, insert, lookup, and collision-resolution functions
+
+- Dynamic memory allocation and deallocation
+
+This allowed constant-time average lookup performance while operating under strict RAM constraints.
+
+# Persistent Save/Load System
+
+The save/load system writes the complete game state to an SD card, enabling power-off persistence.
+
+The system:
+
+- Serializes player stats, inventory, and quest progression into a txt file format
+
+- Stores map state and enemy conditions
+
+- Restores the full game state on reboot with the option of creating a new save at any point
+
+This required careful struct organization and file handling in C to ensure reliability and data integrity.
+
+# Technical Challenges
+
+Debugging memory leaks
+
+Designing efficient data structures without standard containers
+
+Optimizing display updates for limited processing power
+
+Ensuring reliable SD card read/write operations
+
+# What This Project Demonstrates
+
+Embedded systems programming
+
+Low-level C development
+
+Custom data structure implementation
+
+Hardware–software integration
+
+Ownership of a large, single-developer codebase
+
+System design under resource constraints
+
