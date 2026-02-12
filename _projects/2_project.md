@@ -5,8 +5,10 @@ description: Arm processor based RPG game written in C
 img: assets/img/2035Game.jpg
 importance: 2
 category: academic projects
-giscus_comments: true
+giscus_comments: false
 ---
+
+
 
 # Overview
 
@@ -18,7 +20,7 @@ The system integrates an LCD display, hardware switches, and an SD card reader t
 
 <div style="text-align: center;">
   <iframe width="560" height="315"
-    src="https://www.youtube.com/watch?v=-ByK3FcCoNQ"
+    src="https://www.youtube.com/embed/-ByK3FcCoNQ"
     title="Demo Video"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
